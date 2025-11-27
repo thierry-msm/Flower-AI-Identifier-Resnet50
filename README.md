@@ -156,7 +156,3 @@ flower_model/
     ├── index.html       # HTML principal
     └── vite.config.js   # Configuração do Vite
 ```
-
-------------------------------------------------------------------------
-
-### Desenvolvido por **Thierry Marcof**
