@@ -77,7 +77,7 @@ export default function App() {
         <div className="bg-white rounded-xl shadow-sm p-6 mb-8 border border-slate-200">
           <h2 className="text-lg font-semibold mb-2 text-slate-700">Identificação de Espécies</h2>
           <p className="text-slate-500">
-            Carregue uma foto de uma flor e nossa Inteligência Artificial (ResNet50) irá identificar a qual das 102 espécies do dataset Oxford ela pertence.
+            Carregue uma foto de uma flor e modelo irá identificar a qual das 102 espécies do dataset Oxford ela pertence.
           </p>
         </div>
 
@@ -179,12 +179,14 @@ export default function App() {
                       ></div>
                     </div>
                   </div>
-                ))}
+                ))} 
                 
                 <div className="mt-6 pt-4 border-t text-xs text-slate-400">
                   Modelo: ResNet50 (Transfer Learning)
                   <br/>
                   Dataset: Oxford Flowers 102
+                  <br/>
+                  Author: Thierry Marcoff
                 </div>
               </div>
             )}
