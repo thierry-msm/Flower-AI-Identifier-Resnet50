@@ -7,7 +7,7 @@ import os
 
 # Configurações
 BATCH_SIZE = 32
-EPOCHS = 3 # Para um trabalho final, tente 20 ou 30 se tiver GPU
+EPOCHS = 20
 LEARNING_RATE = 0.001
 DATA_DIR = './dataset'
 MODEL_SAVE_PATH = './model/flower_resnet50.pth'
